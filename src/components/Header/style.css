@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 8px;
+  position: fixed;
+  width: calc(100% - 8px);
+  background-color: var(--background-color);
+  z-index: 1;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 996px;
+}
+
+.header-logo {
+  width: 160px;
+}
+
+.header-signUp {
+  color: var(--text-secondary-color);
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+
+.header-signUp::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  top: 22px;
+  left: 0px;
+  width: 0px;
+  background: #aa8bff;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.5s;
+}
+
+.header-signUp:hover:after {
+  width: 60px;
+}

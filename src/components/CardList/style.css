@@ -1,0 +1,14 @@
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
+  padding: 8px;
+}
+
+@media (min-width: 576px) {
+  .card-list {
+    display: flex;
+    flex-direction: row;
+  }
+}

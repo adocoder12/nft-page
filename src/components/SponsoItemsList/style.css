@@ -1,0 +1,15 @@
+.itemsWraper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px 8px;
+}
+
+.itemsWraper :nth-child(2n) {
+  justify-self: end;
+}
+@media (min-width: 576px) {
+  .itemsWraper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

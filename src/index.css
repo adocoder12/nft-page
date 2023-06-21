@@ -1,0 +1,40 @@
+:root {
+  --background-color: #111111;
+  --text-primart-color: #aaaaaa;
+  --text-secondary-color: #ff3998;
+  --title-secondary-color: #ffffff;
+  --first-container-bgColor: #fff0e8;
+  --secondary-container-bgColor: #39ffa0;
+  --third-container-bgColor: #555555;
+  --Color-orange: #ff8139;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: var(--text-primart-color);
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'inter', Courier, monospace;
+  background-color: var(--background-color);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}

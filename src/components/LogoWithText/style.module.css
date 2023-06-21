@@ -1,0 +1,17 @@
+.containerLogoText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgb(66 64 64);
+  padding: 24px;
+}
+
+.logoWithTextImage {
+  width: 48px;
+}
+
+@media (min-width: 576px) {
+  .containerLogoText {
+    border-radius: 12px;
+  }
+}

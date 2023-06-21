@@ -1,0 +1,9 @@
+.sponsorItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.sponsorItemLogo {
+  max-width: 40px;
+  max-height: 40px;
+}

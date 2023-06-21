@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 312px;
+  background-color: #202020;
+  border-radius: 23px;
+}
+
+.nft-image {
+  max-height: 222px;
+  width: 100%;
+  background-color: antiquewhite;
+  border-radius: 23px 23px 0 0;
+}
+
+.card-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 14px;
+}
+
+.card-details :nth-child(2n) {
+  justify-self: flex-end;
+}
+.card_details-series {
+  color: var(--Color-orange);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.card_details-bid {
+  color: var(--text-primart-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.card_details-name {
+  color: var(--title-secondary-color);
+}
+.card_details-price {
+  color: var(--title-secondary-color);
+}
+.card_details-number {
+  color: var(--text-primart-color);
+}
+.card_details-left {
+  color: var(--text-primart-color);
+}
